@@ -1,0 +1,34 @@
+{
+  "name": "Pin All Tabs Extension",
+  "description": "Pin All Tabs With Just A Simple Click or A Keyboard Shortcut",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [ 
+    "tabs"
+  ],
+  "icons": {
+    "16": "assets/icon-16.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "48": "assets/icon-48.png",
+      "128": "assets/icon-128.png"
+    }
+  },
+  "author": "will",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+E",
+        "mac": "Command+E"
+      }
+    }
+  }
+}

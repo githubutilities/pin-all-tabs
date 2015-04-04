@@ -1,0 +1,1 @@
+The icon image is under Creative Commons Licensea and downloaded from [here](http://pixabay.com/static/uploads/photo/2013/07/12/14/08/drawing-pin-147814_640.png)
