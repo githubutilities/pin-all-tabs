@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Pin All Tabs Extension",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Pin All Tabs With Just A Simple Click or A Keyboard Shortcut",
+    "description": "The description of the application"
+  }
+}
