@@ -16,10 +16,12 @@ Pin All Tabs With Just A Simple Click or A Keyboard Shortcut.
 # Developement Environment Setup
 
 * `git clone https://github.com/githubutilities/pin-all-tabs.git`
+* `cd pin-all-tabs && npm install`
 * Visit `chrome://extensions` and enable `Developer mode`
-* Click `Load unpacked extension` and select `src` folder under the local repository that you just clone
+* Click `Load unpacked extension` and select `app` folder under the local repository that you just clone
+* run `grunt debug` and it will reload the extension when you change file
 
-> Remember to reload the extensions when you change the `manifest.json` file under `chrome://extensions` page.
+> Remember to reload the extensions when you change the `manifest.json` file.
 
 
 # Reference
